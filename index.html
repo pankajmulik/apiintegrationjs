@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="structure">
+
+
+            <h2>Our Products</h2>
+
+            <div class="serchbar">
+                <input type="text" name="search" id="search-bar" placeholder="Enter category, product name " value=""
+                    onchange='(e)=>{e.target.value}' />
+                <button>Search</button>
+            </div>
+
+            <div class="product-data">
+
+<div class="category">
+
+    <div>
+<button onclick="displayMen()">
+    Men
+</button>
+    </div>
+   
+<div>
+<button onclick="displayWomen()">
+    Women
+</button>
+</div>
+    
+<div>
+    <button onclick="displayChild()">
+        Child
+    </button>
+
+
+</div>
+
+</div>
+                <div id="products" >
+
+    
+                </div>
+            </div>
+
+
+        </div>
+
+    </body>
+
+</html>

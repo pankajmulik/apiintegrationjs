@@ -1,0 +1,32 @@
+.product-data {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  gap: 10px;
+}
+
+.structure{
+  text-align: center;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+
+margin:auto ;
+}
+
+
+.serchbar{
+  width: 100%;
+ text-align: center;
+ 
+}
+.serchbar input{
+   width:60%;
+  height: 30px;
+   border: none;
+  box-sizing: border-box;
+  box-shadow: 10px 8px 12px 15px gray;
+  margin: 2rem 0;
+}
