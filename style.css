@@ -30,3 +30,22 @@ margin:auto ;
   box-shadow: 10px 8px 12px 15px gray;
   margin: 2rem 0;
 }
+
+.category{
+
+  width: auto;
+}
+.category div{
+  width: 100%;
+}
+.category div button{
+  width: 100%;
+  text-align: center;
+  margin: 5%;
+  border: none;
+  box-sizing: border-box;
+  font-size: large;
+  background: none;
+  box-shadow: 5px 4px 5px 4px gray;
+
+}
