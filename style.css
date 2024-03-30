@@ -4,7 +4,7 @@
   gap: 10px;
 }
 
-.structure{
+.structure {
   text-align: center;
 }
 
@@ -13,32 +13,29 @@
   grid-template-columns: auto auto auto;
   gap: 10px;
 
-margin:auto ;
+  margin: auto;
 }
 
-
-.serchbar{
+.serchbar {
   width: 100%;
- text-align: center;
- 
+  text-align: center;
 }
-.serchbar input{
-   width:60%;
+.serchbar input {
+  width: 60%;
   height: 30px;
-   border: none;
+  border: none;
   box-sizing: border-box;
-  box-shadow: 10px 8px 12px 15px gray;
+  box-shadow: 5px 8px 5px 5px gray;
   margin: 2rem 0;
 }
 
-.category{
-
+.category {
   width: auto;
 }
-.category div{
+.category div {
   width: 100%;
 }
-.category div button{
+.category div button {
   width: 100%;
   text-align: center;
   margin: 5%;
@@ -47,5 +44,4 @@ margin:auto ;
   font-size: large;
   background: none;
   box-shadow: 5px 4px 5px 4px gray;
-
 }
