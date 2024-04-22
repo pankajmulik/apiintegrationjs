@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-
+height: 400px;
   margin: auto;
 }
 
@@ -44,4 +44,11 @@
   font-size: large;
   background: none;
   box-shadow: 5px 4px 5px 4px gray;
+}
+
+@media screen and (max-width: 480px) {
+  #products {
+    display: block;
+    flex-wrap: wrap;
+  }
 }

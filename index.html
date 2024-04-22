@@ -16,42 +16,62 @@
         <div class="structure">
 
 
-            <h2>Shop.com</h2>
+            <div class="upperdiv" style="display: flex;">
+                <h2>Shop.com</h2> 
+
+                <div class="addcartbtn">
+                  
+                        <a href="cart.html">
+                            <button>
+My Cart
+
+</button>
+</a>
+                    
+                  
+                </div>
+            </div>
+
+           
 
             <div class="serchbar">
-                <input type="text" name="search" id="search-bar" placeholder="Enter category, product name " value=""
+                <input type="text" name="searchbar" id="searchbar" placeholder="Enter category, product name " value=""
                     onchange='(e)=>{e.target.value}' />
-                <button>Search</button>
+               
             </div>
 
             <div class="product-data">
 
-<div class="category">
+                <div class="category">
 
-    <h4 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Category</h4>
+                    <h4
+                        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        Category</h4>
 
-    <div>
-<button class="btn" data-value="Men">Men</button>
-    </div>
-   
-<div>
-<button class="btn"  data-value="Women">
-    Women
-</button>
-</div>
-    
-<div>
-    <button  class="btn" data-value="Kids">
-        Kids
-    </button>
+                    <div>
+                        <button class="btn" data-value="Men">
+                            Men
+                        </button>
+                    </div>
+
+                    <div>
+                        <button class="btn" data-value="Women">
+                            Women
+                        </button>
+                    </div>
+
+                    <div>
+                        <button class="btn" data-value="Kids">
+                            Kids
+                        </button>
 
 
-</div>
+                    </div>
 
-</div>
-                <div id="products" >
+                </div>
+                <div id="products">
 
-    
+
                 </div>
             </div>
 
